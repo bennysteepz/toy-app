@@ -88,22 +88,22 @@
       
      <plugins>
 
-       <!-- javamop plugin -->
-       <plugin>
-         <groupId>org.apache.maven.plugins</groupId>
-         <artifactId>maven-surefire-plugin</artifactId>
-         <version>2.22.1</version>
-         <configuration>
-           <argLine>-javaagent:${settings.localRepository}/javamop-agent/javamop-agent/1.0/javamop-agent-1.0.jar</argLine>
-         </configuration>
-       </plugin>
+<!--       &lt;!&ndash; javamop plugin &ndash;&gt;-->
+<!--       <plugin>-->
+<!--         <groupId>org.apache.maven.plugins</groupId>-->
+<!--         <artifactId>maven-surefire-plugin</artifactId>-->
+<!--         <version>2.22.1</version>-->
+<!--         <configuration>-->
+<!--           <argLine>-javaagent:${settings.localRepository}/javamop-agent/javamop-agent/1.0/javamop-agent-1.0.jar</argLine>-->
+<!--         </configuration>-->
+<!--       </plugin>-->
 
-       <!-- RPS plugin -->
-       <plugin>
-         <groupId>com.steeper.ben</groupId>
-         <artifactId>myexample-maven-plugin</artifactId>
-         <version>1.0-SNAPSHOT</version>
-       </plugin>
+<!--       &lt;!&ndash; RPS plugin &ndash;&gt;-->
+<!--       <plugin>-->
+<!--         <groupId>com.steeper.ben</groupId>-->
+<!--         <artifactId>myexample-maven-plugin</artifactId>-->
+<!--         <version>1.0-SNAPSHOT</version>-->
+<!--       </plugin>-->
 
        <!-- STARTS plugin -->
        <plugin>
