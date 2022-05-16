@@ -15,5 +15,9 @@ public class AppTest
         Collection c = Collections.synchronizedCollection(Arrays.asList("Foo", "Bar"));
         App a = new App();
         assertEquals(2, a.count(c));
+
+        Collection c4 = Collections.synchronizedCollection(Arrays.asList("Foo", "Bar"));
+        App4 a4 = new App4();
+        assertEquals(2, a4.count(c4));
     }
 }

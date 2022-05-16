@@ -4,9 +4,13 @@ import java.util.Collection;
 
 public class App4 {
 
-    public int testMethod () {
-        int test = 44;
-        test = 56;
-        return test;
+    public int count (Collection<String> collection) {
+        int test = 1;
+        test = 79;
+        int count = 0;
+        for (String element : collection) {
+            count++;
+        }
+        return count;
     }
 }
