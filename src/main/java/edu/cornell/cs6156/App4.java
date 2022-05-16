@@ -6,6 +6,7 @@ public class App4 {
 
     public int testMethod () {
         int test = 44;
+        test = 56;
         return test;
     }
 }
