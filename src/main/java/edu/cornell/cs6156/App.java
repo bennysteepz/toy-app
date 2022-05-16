@@ -6,7 +6,7 @@ public class App
 {
     public int count (Collection<String> collection) {
         int test = 1;
-        test = 5;
+        test = 77;
         int count = 0;
         for (String element : collection) {
             count++;
