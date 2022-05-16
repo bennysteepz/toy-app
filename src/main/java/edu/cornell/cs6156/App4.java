@@ -1,5 +1,12 @@
 package edu.cornell.cs6156;
 
+import java.util.Collection;
+
 public class App4 {
-    int test = 1;
+
+    public int testMethod () {
+        int test = 3;
+
+        return test;
+    }
 }
