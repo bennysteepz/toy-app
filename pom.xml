@@ -101,12 +101,12 @@
 <!--         </configuration>-->
 <!--       </plugin>-->
 
-<!--       &lt;!&ndash; RPS plugin &ndash;&gt;-->
-<!--       <plugin>-->
-<!--         <groupId>com.steeper.ben</groupId>-->
-<!--         <artifactId>myexample-maven-plugin</artifactId>-->
-<!--         <version>1.0-SNAPSHOT</version>-->
-<!--       </plugin>-->
+       <!-- RPS plugin -->
+       <plugin>
+         <groupId>com.steeper.ben</groupId>
+         <artifactId>myexample-maven-plugin</artifactId>
+         <version>1.0-SNAPSHOT</version>
+       </plugin>
 
 <!--       &lt;!&ndash; STARTS plugin &ndash;&gt;-->
 <!--       <plugin>-->
