@@ -58,7 +58,7 @@
             <artifactId>javamop-agent</artifactId>
             <version>1.0</version>
             <packaging>jar</packaging>
-            <file>../agents/JavaMOPAgent.jar</file>
+            <file>../javamop-agent-bundle/agents/JavaMOPAgent.jar</file>
           </configuration>
           <executions>
             <execution>
