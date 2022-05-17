@@ -4,7 +4,7 @@ import java.util.Collection;
 
 public class App4 {
 
-    public int count (Collection<String> collection) {
+    public int count4 (Collection<String> collection) {
         int test = 1;
         test = 81;
         int count = 0;
