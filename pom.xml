@@ -111,7 +111,6 @@
              <groupId>edu.illinois</groupId>
              <artifactId>starts-maven-plugin</artifactId>
              <version>1.3</version>
-             <scope>runtime</scope>
            </dependency>
          </dependencies>
        </plugin>
