@@ -94,14 +94,14 @@
      <plugins>
 
        <!-- INCLUDE: JAVAMOP PLUGIN -->
-<!--       <plugin>-->
-<!--         <groupId>org.apache.maven.plugins</groupId>-->
-<!--         <artifactId>maven-surefire-plugin</artifactId>-->
-<!--         <version>2.22.1</version>-->
-<!--         <configuration>-->
-<!--           <argLine>-javaagent:${settings.localRepository}/javamop-agent/javamop-agent/1.0/javamop-agent-1.0.jar</argLine>-->
-<!--         </configuration>-->
-<!--       </plugin>-->
+       <plugin>
+         <groupId>org.apache.maven.plugins</groupId>
+         <artifactId>maven-surefire-plugin</artifactId>
+         <version>2.22.1</version>
+         <configuration>
+           <argLine>-javaagent:${settings.localRepository}/javamop-agent/javamop-agent/1.0/javamop-agent-1.0.jar</argLine>
+         </configuration>
+       </plugin>
 
        <!-- INCLUDE: RPS PLUGIN -->
        <plugin>
