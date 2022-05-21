@@ -5,6 +5,7 @@ import static org.junit.Assert.assertEquals;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.Arrays;
+import java.util.*;
 
 import org.junit.Test;
 
@@ -27,5 +28,14 @@ public class AppTest
         Collection c4 = Collections.synchronizedCollection(Arrays.asList("Foo", "Bar"));
         App4 a4 = new App4();
         assertEquals(2, a4.count4(c4));
+    }
+
+    @Test
+    public void testSorts() {
+	List<NonComparableClass> lst = new ArrayList<NonComparableClass>();
+	lst.add(new NonComparableClass());
+	lst.add(new NonComparableClass());
+	Sorts sorts = new Sorts();
+	assertEquals(1, sorts.callSort(lst));
     }
 }
